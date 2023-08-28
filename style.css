@@ -54,7 +54,7 @@ button {
     height: 5%;
 }
 
-#gpt-prompt {
+#gpt-prompt-input {
     background-color: white;
     width: 90%;
     height: 70%
