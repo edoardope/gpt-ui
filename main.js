@@ -14,14 +14,6 @@ setPromptButton.addEventListener("click", function () {
     start()
 });
 
-function promptSelection(promptName) {
-    if (promptName === 'Alex') {
-        return Alex
-    } else if (promptName === 'Braintech') {
-        return BraintechFinance
-    }
-}
-
 async function start() {
     completeChat.push({
         role: 'system', //come si deve comportare gpt 
